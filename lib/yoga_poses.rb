@@ -13,18 +13,42 @@ class YogaPose
   end 
   
   def self.all
-    #@@all 
-    pose_1 = self.new 
-    pose_1.name = "pose 1"
-    pose_1.description = "description 1"
+    self.scrape_poses
     
-    pose_2 = self.new 
-    pose_2.name = "pose 2"
-    pose_2.description = "description 2"
-    
-    [pose_1, pose_2]
   end 
   
+  def self.scrape_poses
+    poses = []
+    
+    poses << self.scrape_website
+     
+    #go to website 
+    #extract the properties
+    #instantiate a pose 
+    
+    #pose_1 = self.new 
+    #pose_1.name = "pose 1"
+    #pose_1.description = "description 1"
+    
+    #pose_2 = self.new 
+    #pose_2.name = "pose 2"
+    #pose_2.description = "description 2"
+    
+    #[pose_1, pose_2]
+    
+    poses
+  end 
+  
+  def self.scrape_website
+    doc = Nokogiri::HTML(open("https://www.self.com/gallery/de-stressing-yoga-poses-to-help-you-calm-down"))
+    name = doc.css("figcaption h2.hed").each do |pose_el|
+       pose_el.text
+       binding.pry
+    end
+    
+    #description = 
+    
+  end
   
   
   #def description
