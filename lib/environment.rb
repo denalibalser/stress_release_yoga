@@ -6,6 +6,7 @@ require 'pry'
 
 require_relative "./cli"
 require_relative "./yoga_poses"
+require_relative "./scraper"
 
 
 
