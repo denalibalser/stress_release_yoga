@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "compost_cli"
+require "stress_release_yoga"
 
 
 StressReleaseYoga::CLI.new.start

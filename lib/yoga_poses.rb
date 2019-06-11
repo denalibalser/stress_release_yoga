@@ -9,7 +9,7 @@ class YogaPose
   def initialize(name=nil, description=nil)
     @name = name 
     @description = description 
-    @@all << self
+    #@@all << self
   end 
   
   def self.all
@@ -18,11 +18,16 @@ class YogaPose
     pose_1.name = "pose 1"
     pose_1.description = "description 1"
     
+    pose_2 = self.new 
+    pose_2.name = "pose 2"
+    pose_2.description = "description 2"
+    
+    [pose_1, pose_2]
   end 
   
   
   
-  def description
-    @description ||= doc.css("")
-  end
+  #def description
+    #@description ||= doc.css("")
+  #end
 end 
