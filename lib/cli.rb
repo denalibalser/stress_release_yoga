@@ -27,7 +27,7 @@ class CLI
       
       if input.to_i > 0 
         the_pose = @poses[input.to_i-1]
-        puts "#{the_pose.name}:"
+        puts "#{the_pose.name}: #{the_pose.description}"
       elsif input == "list"
         list_poses
       elsif input == "exit"
