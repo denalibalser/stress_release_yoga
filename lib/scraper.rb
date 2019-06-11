@@ -11,7 +11,7 @@ def self.scrape_website_poses
     
     names.each_with_index do |name, index|
       YogaPose.new(name, descriptions[index])
-      binding.pry
+      #binding.pry
     end
     
   end

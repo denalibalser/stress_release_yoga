@@ -16,6 +16,10 @@ class YogaPose
     @@all
   end
   
+
+  
+  
+  
  
   
   
