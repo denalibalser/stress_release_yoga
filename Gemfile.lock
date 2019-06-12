@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     stress_release_yoga (0.1.0)
+      nokogiri
 
 GEM
   remote: https://rubygems.org/

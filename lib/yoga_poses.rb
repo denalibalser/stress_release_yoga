@@ -1,8 +1,5 @@
 class YogaPose 
   attr_accessor :name, :description
-  #has a name 
-  #has a description 
-  #has a url 
   
   @@all = []
   

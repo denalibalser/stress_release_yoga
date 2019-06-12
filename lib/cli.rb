@@ -4,7 +4,6 @@ class CLI
     puts "Welcome. Learning how to become a software engineer can be very stressful, not to mention life in general. It is very important to take care of your mind and body in times of stress, which is usually when you feel the least like doing so. Yoga is an accessible and effective way to both destress the mind and move the body after hours of sitting at the computer learning how to code."
     puts ""
     Scraper.scrape_website_poses
-    #binding.pry
     list_poses
     select_pose
     goodbye
@@ -22,8 +21,8 @@ class CLI
   def select_pose
     input = nil
     while input != "exit" 
-    puts ""
-    puts "Please select a yoga pose 1-6 to learn more about it or type 'list' to see the list of poses again or type 'exit' to exit:"
+      puts ""
+      puts "Please select a yoga pose 1-6 to learn more about it or type 'list' to see the list of poses again or type 'exit' to exit:"
       input  = gets.strip.downcase
       
       if input.to_i > 0 
