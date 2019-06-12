@@ -1,28 +1,16 @@
 # StressReleaseYoga
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/stress_release_yoga`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Ruby Gem provides a CLI to view the 6 yoga poses targeted at relieving stress from the mind and body derived from an article posted by self.com on de-stressing with yoga. 
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'stress_release_yoga'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install stress_release_yoga
 
 ## Usage
 
-TODO: Write usage instructions here
+Type the below and follow the on screen prompts.
+
+$ stress_release_yoga
 
 ## Development
 
