@@ -13,28 +13,5 @@ class YogaPose
     @@all
   end
   
-
+end
   
-  
-  
- 
-  
-  
-    
-  end
-  
-  
-  
-  #def description
-    #@description ||= doc.css("")
-  #end
-  
-  #pose_1 = self.new 
-    #pose_1.name = "pose 1"
-    #pose_1.description = "description 1"
-    
-    #pose_2 = self.new 
-    #pose_2.name = "pose 2"
-    #pose_2.description = "description 2"
-    
-    #[pose_1, pose_2]
