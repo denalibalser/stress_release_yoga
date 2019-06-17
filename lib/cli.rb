@@ -27,7 +27,7 @@ class CLI
       puts "Please select a yoga pose 1-6 to learn more about it or type 'list' to see the list of poses again or type 'exit' to exit:"
       input = gets.strip.downcase
       
-      if input.to_i > 0 && input.to_i != nil
+      if input.to_i > 0 && input.to_i < YogaPose.all.length 
         #binding.pry
         the_pose = @poses[input.to_i-1]
         puts "#{the_pose.name}: #{the_pose.description}"
