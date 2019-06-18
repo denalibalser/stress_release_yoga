@@ -28,7 +28,7 @@ class CLI
       input = gets.strip.downcase
       puts ""
       
-      if input.to_i > 0 && input.to_i < YogaPose.all.length 
+      if input.to_i > 0 && input.to_i <= YogaPose.all.length
         the_pose = @poses[input.to_i-1]
         puts "#{the_pose.name}: #{the_pose.description}"
       elsif input == "list"
