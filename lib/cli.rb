@@ -4,6 +4,7 @@ class CLI
     puts "Welcome. Learning how to become a software engineer can be very stressful, not to mention life in general. It is very important to take care of your mind and body in times of stress, which is usually when you feel the least like doing so. Yoga is an accessible and effective way to both destress the mind and move the body after hours of sitting at the computer learning how to code."
     puts ""
     Scraper.scrape_website_poses
+    binding.pry
     list_poses
     select_pose
   end 
