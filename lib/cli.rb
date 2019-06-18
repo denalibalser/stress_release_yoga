@@ -6,7 +6,6 @@ class CLI
     Scraper.scrape_website_poses
     list_poses
     select_pose
-    goodbye
   end 
   
   def list_poses
