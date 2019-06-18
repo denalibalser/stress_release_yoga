@@ -16,7 +16,6 @@ class CLI
     @poses.each.with_index(1) do |pose, i|
       puts  "#{i}. #{pose.name}"
     end 
-    #binding.pry
   end
   
   def select_pose
@@ -25,10 +24,11 @@ class CLI
     while input != "exit" 
       puts ""
       puts "Please select a yoga pose 1-6 to learn more about it or type 'list' to see the list of poses again or type 'exit' to exit:"
+      puts ""
       input = gets.strip.downcase
+      puts ""
       
       if input.to_i > 0 && input.to_i < YogaPose.all.length 
-        #binding.pry
         the_pose = @poses[input.to_i-1]
         puts "#{the_pose.name}: #{the_pose.description}"
       elsif input == "list"
@@ -36,7 +36,6 @@ class CLI
       elsif input == "exit"
         goodbye
       else 
-        puts ""
         puts "Invalid input, refer back to directions to find your pose!"
       end
     end
