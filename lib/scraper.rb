@@ -11,7 +11,6 @@ class Scraper
        caption_el.text
      end
      
-     #3 Upon creating every YogaPose instance, associate with a random Yogi from the Yogi array 
     Yogi.make_three_yogis 
     
      names.each_with_index do |name, index|
