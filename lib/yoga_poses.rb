@@ -13,6 +13,5 @@ class YogaPose
   def self.all
     @@all
   end
-  
 end
   
