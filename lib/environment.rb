@@ -1,5 +1,3 @@
-#require "stress_release_yoga/version"
-
 require 'open-uri'
 require 'nokogiri'
 
