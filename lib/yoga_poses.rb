@@ -1,12 +1,11 @@
 class YogaPose 
-  attr_accessor :name, :description, :yogi
+  attr_accessor :name, :description
   
   @@all = []
   
-  def initialize(name=nil, description=nil, yogi = nil)
+  def initialize(name=nil, description=nil)
     @name = name 
     @description = description 
-    @yogi = yogi
     @@all << self
   end 
   
