@@ -10,12 +10,9 @@ class Scraper
      descriptions = doc.css("blockquote.caption div").map do |caption_el|
        caption_el.text
      end
-     
-    Yogi.make_three_yogis 
     
      names.each_with_index do |name, index|
-       random_yogi = Yogi.all.sample
-       YogaPose.new(name, descriptions[index], random_yogi)
+       YogaPose.new(name, descriptions[index])
      end
   end
 end
