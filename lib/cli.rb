@@ -32,12 +32,24 @@ class CLI
         puts "#{the_pose.name}: #{the_pose.description}"
       elsif input == "list"
         list_poses
+        elsif input == "create"
+        puts "Name:"
+        name = gets.chomp
+        puts "Description:"
+        description = gets.chomp
+        create_new_pose(name, description)
       elsif input == "exit"
         goodbye
       else 
         puts "Invalid input, refer back to directions to find your pose!"
       end
     end
+   end
+  
+  def create_new_pose(name, description)
+     YogaPose.new(name, description)
+     puts "Your new yoga pose, #{name}, was created."
+     list_poses
    end
   
   def goodbye 
