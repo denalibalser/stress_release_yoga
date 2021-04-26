@@ -28,9 +28,19 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
   * rake (>= 12.3.3)
   * stress_release_yoga!
 
+## Runtime Dependencies
+* nokogiri >= 0
+
+## Developement Dependencies
+* bundler ~> 2.0
+* rake >= 12.3.3
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/'denalibalser'/stress_release_yoga. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Versions:
+0.1.0 - April 26, 2021 (9.5 KB)
 
 ## License
 
