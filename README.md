@@ -1,5 +1,7 @@
 # StressReleaseYoga
 
+<img width="1043" alt="Screen Shot 2021-04-26 at 11 11 17 AM" src="https://user-images.githubusercontent.com/46694709/116123480-46df5c00-a680-11eb-9196-3fa1c6d564d5.png">
+
 This Ruby Gem provides a CLI to view the 6 yoga poses targeted at relieving stress from the mind and body derived from an article posted by self.com on de-stressing with yoga. 
 
 ## Installation
@@ -8,15 +10,23 @@ This Ruby Gem provides a CLI to view the 6 yoga poses targeted at relieving stre
 
 ## Usage
 
-Type the below and follow the on screen prompts.
+Type the below and follow the on screen/in terminal prompts.
 
-$ stress_release_yoga
+$ bin/console
 
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Dependencies 
+  * ruby
+  * bundler (~> 2.0)
+  * nokogiri (>= 1.11.0)
+  * pry
+  * rake (>= 12.3.3)
+  * stress_release_yoga!
 
 ## Contributing
 
