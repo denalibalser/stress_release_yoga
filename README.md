@@ -6,12 +6,13 @@ This Ruby Gem provides a CLI to view the 6 yoga poses targeted at relieving stre
 
 ## Installation
 
-    $ gem install stress_release_yoga
+$ gem install stress_release_yoga
 
 ## Usage
 
 Type the below and follow the on screen/in terminal prompts.
 
+$ cd stress_release_yoga 
 $ bin/console
 
 ## Development
