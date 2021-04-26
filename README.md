@@ -12,8 +12,8 @@ $ gem install stress_release_yoga
 
 Type the below and follow the on screen/in terminal prompts.
 
-$ cd stress_release_yoga 
-$ bin/console
+* $ cd stress_release_yoga 
+* $ bin/console
 
 ## Development
 
