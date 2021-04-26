@@ -6,12 +6,12 @@ require "stress_release_yoga/version"
 Gem::Specification.new do |spec|
   spec.name          = "stress_release_yoga"
   spec.version       = StressReleaseYoga::VERSION
-  spec.authors       = ["'Denali Balser'"]
-  spec.email         = ["'denali.balser167@gmail.com'"]
+  spec.authors       = ["Denali Balser"]
+  spec.email         = ["denali.balser167@gmail.com"]
 
-  spec.summary       = "TEST"
-  spec.description   = "TEST"
-  spec.homepage      = "http://mygemserver.com"
+  spec.summary       = "Stress Release Yoga CLI"
+  spec.description   = "A simple CLI application that scrapes yoga poses and displays them to user."
+  spec.homepage      = "https://rubygems.org/gems/stress_release_yoga"  
   spec.license       = "MIT"
 
   
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", ">= 12.3.3"
+  spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.3'
   
-  spec.add_dependency "nokogiri"
+  spec.add_dependency "nokogiri", ">= 1.11.0"
 end
