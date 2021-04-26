@@ -1,5 +1,7 @@
 # StressReleaseYoga
 
+<img width="1043" alt="Screen Shot 2021-04-26 at 11 11 17 AM" src="https://user-images.githubusercontent.com/46694709/116123480-46df5c00-a680-11eb-9196-3fa1c6d564d5.png">
+
 This Ruby Gem provides a CLI to view the 6 yoga poses targeted at relieving stress from the mind and body derived from an article posted by self.com on de-stressing with yoga. 
 
 ## Installation
