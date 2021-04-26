@@ -3,7 +3,7 @@ class YogaPose
   
   @@all = []
   
-  def initialize(name=nil, description=nil)
+  def initialize(name=nil, description=nil) 
     @name = name 
     @description = description 
     @@all << self

@@ -57,5 +57,4 @@ class CLI
     puts "~Namaste~"
     puts ""
   end 
-  
 end
