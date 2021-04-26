@@ -22,7 +22,7 @@ class CLI
     
     while input != "exit" 
       puts ""
-      puts "Please select a yoga pose 1-6 to learn more about it or type 'list' to see the list of poses again or type 'exit' to exit:"
+      puts "Please select a yoga pose 1-6 to learn more about it, type 'list' to see the list of poses again, type 'create' to add your own yoga pose, or type 'exit' to exit:"
       puts ""
       input = gets.strip.downcase
       puts ""
@@ -47,10 +47,10 @@ class CLI
    end
   
   def create_new_pose(name, description)
-     YogaPose.new(name, description)
-     puts "Your new yoga pose, #{name}, was created."
-     list_poses
-   end
+    YogaPose.new(name, description)
+    puts "Your new yoga pose, #{name}, was created."
+    list_poses
+  end
   
   def goodbye 
     puts ""
